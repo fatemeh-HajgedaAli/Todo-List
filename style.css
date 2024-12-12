@@ -8,23 +8,21 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-image: url(./autumn.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-background-color: rgb(203, 96, 64,0.2);
+background-color: rgb(203, 96, 64);
 width: 20rem;
 height: 15rem;
 margin-left:35rem;
 margin-top: 15rem;
 }
-.list{  
+.listMenu{  
 display: none;
+position: absolute;
 list-style-type: none;
 background-color: rgb(253, 139, 81, 0.5);
 width: 15rem;
-height: 10rem;
 margin-left: 1.2rem;
 margin-top: 1rem;
 transition: all 250ms ease-in-out;
-position: absolute;
-
 }
 .itemList{
 display: flex;
@@ -45,14 +43,16 @@ top: 30rem;
 }
 .labelText{
 position: relative;
+top: 3rem;
 padding-left: 6rem;
 margin-top: -2.5rem;
-color: #fff;
+color: rgb(203, 96, 64);
 font-weight: bolder;
 z-index: 1;
 }
 #textInput{
-position: fixed;
+position: absolute;
+top: 3rem;
 width: 19.7rem;
 height: 2rem;
 background-color: rgb(203, 96, 64);
