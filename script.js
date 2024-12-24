@@ -21,12 +21,11 @@ newTrashIcon.className='bi bi-trash3-fill trashBox'
 
 newTrashIcon.addEventListener('click',function(event){
 event.target.parentElement.remove()
-})
+
 newItemList.append(newText , newTrashIcon)
 listMenu[0].append(newItemList)
-
+})
 }
-
 formBox.addEventListener('submit', function(event){
     event.preventDefault()
 })
@@ -40,6 +39,7 @@ if(event.keyCode === 13 ){
     if(textInputValue){
 textInput.value=''
 addNewTodo(textInputValue)
+
 }
 }
 })
