@@ -4,7 +4,8 @@ let trashBox=$.querySelector('.trashBox')
 let text=$.querySelector('.text')
 let textInput=$.querySelector('#textInput')
 let formBox=$.querySelector('.formBox')
-// 
+// این تابع یک مقدار متنی (textInputValue) 
+// دریافت می‌کند و از آن برای ایجاد یک آیتم جدید در لیست استفاده می‌کند.
 function addNewTodo(textInputValue){
 // make new li
 let newChildList=$.createElement('li')
@@ -32,6 +33,8 @@ parentMenu.style.display='block'
 if(textInputValue){
 if(event.keyCode===13){
 textInput.value=''
+// تابع addNewTodo 
+// با مقدار ورودی کاربر فراخوانی می‌شود تا آیتم جدید به لیست اضافه شود.
 addNewTodo(textInputValue)
 }
 }
