@@ -14,26 +14,27 @@ height: 15rem;
 margin-left:35rem;
 margin-top: 15rem;
 }
-.listMenu{  
+.parentMenu{  
 display: none;
 position: absolute;
 list-style-type: none;
 background-color: rgb(253, 139, 81, 0.5);
-width: 15rem;
-margin-left: 1.2rem;
-margin-top: 1rem;
+width: 15em;
+margin-left: 1.2em;
+margin-top: 1em;
 transition: all 250ms ease-in-out;
 }
 .itemList{
 display: flex;
 position: relative;
 text-align: center;
+gap: 1em;
 color: #fff;
 }
 .trashBox{
 position: absolute;
 left: 12rem;
-top: 1rem;
+top: -0.1rem;
 }
 .formBox{
 display: flex;
